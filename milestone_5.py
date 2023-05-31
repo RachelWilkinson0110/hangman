@@ -31,12 +31,12 @@ class Hangman:
             for index, char in enumerate(self.word):
                 if char == guess:
                     r.append(index)
-            print(r)
+            
             for i in r:
                 self.word_guessed = self.word_guessed[:i] + guess + self.word_guessed[i+1:]
                 self.num_letters = self.num_letters -1
             print(self.word_guessed)
-            print(self.num_letters)
+            
             if self.num_letters==0:
                 print(f'Congratulations, you have won the game. The word is {self.word}')
                 quit()
@@ -62,7 +62,7 @@ class Hangman:
             else:
                 self.check_guess(guess)
                 self.list_of_guesses += guess
-                print(self.list_of_guesses)
+                print(f"list of guesses: {self.list_of_guesses}")
 
         
 def play_game(word_list):
