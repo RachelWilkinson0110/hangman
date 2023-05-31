@@ -10,4 +10,15 @@ I have also used the input function to request a single letter input from the us
 Milestone 3
 In this section we have created two functions. The funciton ask_for_input will ask the user to enter a single letter. This function will also validate this input using the methods added in milestone 2. The funciton check_guess will check and inform the user if the letter they have guessed is in the random word.
 
+Milestone 4
+In this section we created the class Hnagman. We also intialised the parameters and attributes using the __init__ command.
+Next we updated the functions that we created in the previous milestones so that they can act as methods of this class.
+
+Milestone 5
+In this section I made updates to how I replace the dahses - "_" in the word_guessed with the user input - In milestone 4 the letters were being populated in any order meaning they were not showing the user the correct position of their guess. This update has corrected this.
+
+I have also added some conditions of the game, for example if the user uses all their lives the game will end and they will receive a message to that affect. Alternatively if they win, the game will end with a congratulatory note.
+
+
+
 
